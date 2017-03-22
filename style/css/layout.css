@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+	font-weight: 300;
+	color: #222;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+h1, h2, h3{
+	color: #0075c2;
+}
+
+h4, h5{
+	color: #0e948c;
+}
+#wrapper {
+    
+    margin: 0 auto;
+    position: relative;
+}
+#wrapper> div {
+    width: 100%;
+    background-color: #ffffff;
+}
+#logoContainer {
+    float: left;
+	padding: 0 0 5px 0;
+}
+#logoContainer img {
+    padding: 0 10px;
+}
+#logoContainer div h2 {
+    color: #0075c2;
+}
+#logoContainer div h4 {
+    color: #0e948c;
+}
+#logoContainer div p {
+    color: #719146;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+#logoContainer{
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+#titleContainer{
+    position: absolute;
+    top: 8px;
+    left: 300px;
+}
+#userDetail {
+    float: right;
+}
+#userDetail img {
+    position: absolute;
+    top: 16px;
+    right: 130px;
+}
+#userDetail div {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0075c2;
+}
+#userDetail div p {
+    margin: 0;
+}
+#userDetail div p:nth-child(2) {
+    color: #0e948c;
+}
+/*#header div:nth-child(3) {
+    clear: both;
+    }
+#header{
+	border-bottom: 1px solid #0075c2;
+	min-height: 100px;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 9pt;
+    color: black;
+    padding: 5px 0;
+    text-align: center;
+}
+*/
+
+
+#dyn-label-bg, #dyn-label{
+	cursor: pointer;
+}
+.float-left{
+	float:left;
+}
+.clr{
+	clear:both;
+}
+.vertical-separator{
+	border-top:1px dotted #0075c2;
+	margin:0px  !important;
+	width:100%;
+}
+
+
+.container{
+	width:100%;
+}
+.left {
+	display: inline-block;
+    background-color: #F0F0F0;
+	width: 22%;
+	min-width:225px;
+	vertical-align: top;
+	padding:20px 0 0 20px;
+	margin-top: 20px;
+	
+	
+}
+.left ul, .left ul li ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+.center-align{
+	text-align: center;
+}
+.right {    
+	display: inline-block;
+	min-height: 600px;
+	width:73%;
+	min-width:600px;
+	
+}
+
+.full-width {    
+	display: inline-block;
+	min-height: 600px;
+	width:98%;
+	min-width:600px;	
+}
+.indent{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.border-bottom {
+    border-bottom: 1px solid #0075c2;
+}
+.border-right {
+    border-right: 1px solid #0075c2;
+}
+.narrow-margin{
+	margin: 20px 10px;
+}
+#content h1, #content h2, #content h3, #content h4, #content h5{
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+div #message-container{
+	color: #E68A00;
+	font-weight: bold;
+}
+.button-container{
+	margin: 10px 0 0 0;
+}
+.caption-container{
+	margin: 25px 0 0 0;
+}
+
+
+
+/*Added to black text charts for dc.min.css*/
+.dc-chart g.row text {
+    fill: #000;
+}
+
+.dc-chart .pie-slice {
+    fill: #000;
+}
